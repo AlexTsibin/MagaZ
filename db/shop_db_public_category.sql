@@ -8,4 +8,4 @@ create table category
 alter table category
     owner to postgres;
 
-INSERT INTO public.category (id, name) VALUES (1, 'Бытовая техника');
+INSERT INTO public.category (id, name) VALUES (1, 'Alize');

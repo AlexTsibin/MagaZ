@@ -44,9 +44,9 @@
                 <h5 class="card-title" th:text="${product.getTitle()}"></h5>
                 <p class="card-text" th:text="${product.getDescription()}"></p>
                 <p class="card-text" th:text="'Цена: ' + ${product.getPrice()}"></p>
-                <p class="card-text" th:text="'Склад: ' + ${product.getWarehouse()}"></p>
+                <p class="card-text" th:text="'Страна производства: ' + ${product.getWarehouse()}"></p>
                 <p class="card-text" th:text="'Продавец: ' + ${product.getSeller()}"></p>
-                <p class="card-text" th:text="'Категория: ' + ${product.getCategory().getName()}"></p>
+                <p class="card-text" th:text="'Производитель: ' + ${product.getCategory().getName()}"></p>
 
 <!--                <p class="card-text"><small class="text-muted">Последнее обновление 3 мин. назад</small></p>-->
                 <div class="params"></div>

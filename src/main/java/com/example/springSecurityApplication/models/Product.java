@@ -28,7 +28,7 @@ public class Product {
     private float price;
 
     @Column(name = "warehouse", nullable = false)
-    @NotEmpty(message = "Склад по нахождению товара не может быть пустым")
+    @NotEmpty(message = "Страна производства товара не может быть пустой")
     private String warehouse;
 
     @Column(name = "seller", nullable = false,columnDefinition = "text")
